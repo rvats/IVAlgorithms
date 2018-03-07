@@ -1,4 +1,5 @@
 ﻿using Algorithms.General;
+using Algorithms.WayFair;
 using System;
 
 namespace Algorithms
@@ -7,12 +8,20 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
+            // TestGeneralClassMethods();
+            Maths m = new Maths();
+            m.PrintTableBetweenTwoNumbers(1, 3);
+            m.PrintTableBetweenTwoNumbers(9, 12);
+        }
+
+        private static void TestGeneralClassMethods()
+        {
             int number1;
             Console.Write("Enter a Number : ");
             number1 = int.Parse(Console.ReadLine());
             if (GenericMathFunctions.IsNumberEven(number1))
             {
-                Console.WriteLine("{0} is Even",number1);
+                Console.WriteLine("{0} is Even", number1);
             }
             else
             {
@@ -25,6 +34,6 @@ namespace Algorithms
             GenericGeneralFunctions.SwapNumbersWithoutUsingTemp(number1, number2);
 
             GenericGeneralFunctions.SumOfDigits(number1 + number2);
-        }   
+        }
     }
 }

@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{A7DBB016-B556-4D8A-9CAB-9DE145289EB0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{11CB6E86-F6D2-4911-B2C8-1983BF589FF6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.UnitTests", "Algorithms.UnitTests\Algorithms.UnitTests.csproj", "{96CAA09F-815B-449D-BA2A-27D1C2D81278}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A7DBB016-B556-4D8A-9CAB-9DE145289EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7DBB016-B556-4D8A-9CAB-9DE145289EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7DBB016-B556-4D8A-9CAB-9DE145289EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7DBB016-B556-4D8A-9CAB-9DE145289EB0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{11CB6E86-F6D2-4911-B2C8-1983BF589FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{11CB6E86-F6D2-4911-B2C8-1983BF589FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11CB6E86-F6D2-4911-B2C8-1983BF589FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
