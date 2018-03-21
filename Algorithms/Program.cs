@@ -1,5 +1,6 @@
 ﻿using Algorithms.General;
 using Algorithms.WayFair;
+using Algorithms.IHSMarkit;
 using System;
 
 namespace Algorithms
@@ -13,6 +14,12 @@ namespace Algorithms
             // TestWayFairStringIsBalanced();
             // TestWayFairSumOfMultiplesOf3And5LessThanN();
             // TestSepratePositiveNegativeInArray();
+            // TestWayFairBST();
+            Console.WriteLine(IHSMarkit.String.Reverse("123456789"));
+        }
+
+        private static void TestWayFairBST()
+        {
             BinarySearchTree binarySearchTree = new BinarySearchTree();
             binarySearchTree.Insert("Rahul", 33);
             binarySearchTree.Insert("Arpita", 30);
@@ -22,7 +29,7 @@ namespace Algorithms
             binarySearchTree.Insert("Gopal", 58);
             Console.WriteLine(binarySearchTree.DrawTree());
             DataStructures dataStructures = new DataStructures();
-            Console.WriteLine("Max Depth is {0}",dataStructures.MaxDepthViaLoop(binarySearchTree.RootNode()));
+            Console.WriteLine("Max Depth is {0}", dataStructures.MaxDepthViaLoop(binarySearchTree.RootNode()));
             binarySearchTree.RootNode();
         }
 
