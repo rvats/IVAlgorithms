@@ -7,16 +7,16 @@ namespace Algorithms
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            // TestGeneralClassMethods();
-            // TestWayFairPrintTable();
-            // TestWayFairStringIsBalanced();
-            // TestWayFairSumOfMultiplesOf3And5LessThanN();
-            // TestSepratePositiveNegativeInArray();
-            // TestWayFairBST();
-            Console.WriteLine(IHSMarkit.String.Reverse("123456789"));
-        }
+        //static void Main(string[] args)
+        //{
+        //    // TestGeneralClassMethods();
+        //    // TestWayFairPrintTable();
+        //    // TestWayFairStringIsBalanced();
+        //    // TestWayFairSumOfMultiplesOf3And5LessThanN();
+        //    // TestSepratePositiveNegativeInArray();
+        //    // TestWayFairBST();
+        //    Console.WriteLine(IHSMarkit.String.Reverse("123456789"));
+        //}
 
         private static void TestWayFairBST()
         {
